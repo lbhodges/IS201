@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body{
+    background-color: coral;
+}
+.common{
+    background-color: rgb(216, 249, 247);
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: rgb(80, 38, 99); 
+    text-indent: 1rem;
+}
+.top{
+    text-align: center;
+    border: 5px solid black;
+    top: 0px;
+    bottom: 500px;
+    left: .05px;
+    right: .05px;
+}
+.content{
+    top: 140px;
+    left: .05px;
+    right: .05px;
+    border: 5px solid black;
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    position: absolute;
+    float: right;
+    margin: 1rem;
+}
+ul{
+    list-style-type: square;
+}
+.img{
+    height: auto;
+    width: 40%;
+    bottom: 50px;
+}
